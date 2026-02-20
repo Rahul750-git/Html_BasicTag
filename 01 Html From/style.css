@@ -2,17 +2,26 @@
     background-color: peachpuff;
      font-family: Arial, sans-serif;
      text-align: center;
-     border: 2px solid #333;
+     margin: 10px;
+        padding: 10px;
      
 }
 #from{
     font-size: 20px;
     color: #333;
     border-radius: 5px;
-    padding: 15px;
-    margin: 15px;
-     text-align: center;
+    padding: 20px;
+    text-align: center;
     background-color: #f0f0f0;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #333;
 }
 #Name{
     font-size: 10px;
@@ -45,6 +54,8 @@
 #ConfirmPassword{
     font-size: 10px;
     color: #333;
+        text-align: center;
+        text-shadow: 10px 10px 10px #090202;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
@@ -52,11 +63,11 @@
 }
 #Submit{
     font-size: 10px;
-    color: #fff;
-    border-radius: 5px;
+    color: #ffffff;
+    border-radius: 40%;
     padding: 5px;
     margin: 5px;
-    background-color: #333;
+    background-color: #0b0b10;
     
 }
 
